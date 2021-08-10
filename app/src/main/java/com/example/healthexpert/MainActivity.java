@@ -72,6 +72,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 drawerLayout.closeDrawer(GravityCompat.START);
                 break;
 
+            case R.id.bmicalculator:
+                Toast.makeText(getApplicationContext(),"Opening BMI Calculator", Toast.LENGTH_SHORT).show();
+                Intent bmicalculator = new Intent(MainActivity.this, BMI.class);
+                startActivity(bmicalculator);
+                drawerLayout.closeDrawer(GravityCompat.START);
+                break;
+
             case R.id.logout:
                 Toast.makeText(getApplicationContext(), "SLogging Out", Toast.LENGTH_LONG).show();
                 FirebaseAuth.getInstance().signOut();

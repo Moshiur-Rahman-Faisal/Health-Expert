@@ -8,6 +8,10 @@
             android:title="Covid-19 Tracker"
             android:icon="@drawable/ic_virus">
         </item>
+        <item android:id="@+id/bmicalculator"
+            android:title="BMI Calculator"
+            android:icon="@drawable/ic_bmi">
+        </item>
         <item android:id="@+id/logout"
             android:title="Log Out"
             android:icon="@drawable/ic_logout">
