@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/tracker"
+            android:title="Covid-19 Tracker"
+            android:icon="@drawable/ic_virus">
+        </item>
+        <item android:id="@+id/bmicalculator"
+            android:title="BMI Calculator"
+            android:icon="@drawable/ic_bmi">
+        </item>
+        <item android:id="@+id/logout"
+            android:title="Log Out"
+            android:icon="@drawable/ic_logout">
+        </item>
+    </group>
+</menu>
