@@ -79,8 +79,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 drawerLayout.closeDrawer(GravityCompat.START);
                 break;
 
+            case R.id.profile:
+                Toast.makeText(getApplicationContext(),"Opening Profile", Toast.LENGTH_SHORT).show();
+                Intent profile = new Intent(MainActivity.this, ProfileActivity.class);
+                startActivity(profile);
+                drawerLayout.closeDrawer(GravityCompat.START);
+                break;
+
             case R.id.logout:
-                Toast.makeText(getApplicationContext(), "SLogging Out", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Logging Out", Toast.LENGTH_LONG).show();
                 FirebaseAuth.getInstance().signOut();
                 mGoogleSignInClient.signOut();
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);

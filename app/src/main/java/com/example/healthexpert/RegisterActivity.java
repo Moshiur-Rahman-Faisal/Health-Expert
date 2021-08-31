@@ -25,7 +25,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    EditText mFullName, mEmail, mPassword, mConfirmPassword;
+    EditText mFullName, mEmail, mPassword, mConfirmPassword, mBloodGroup;
     Button mRegisterBtn;
     TextView mLoginText;
     FirebaseAuth fAuth;
@@ -42,6 +42,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         mFullName = findViewById(R.id.username);
         mEmail = findViewById(R.id.email);
+        mBloodGroup = findViewById(R.id.bloodgroup);
         mPassword = findViewById(R.id.pass);
         mConfirmPassword = findViewById(R.id.cpass);
         mRegisterBtn = findViewById(R.id.btn_register);
@@ -88,11 +89,12 @@ public class RegisterActivity extends AppCompatActivity {
                                             String uid = fAuth.getUid();
                                             String username = mFullName.getText().toString();
                                             String email = mEmail.getText().toString();
+                                            String blood = mBloodGroup.getText().toString();
                                             String pass = mPassword.getText().toString();
                                             String cpass = mConfirmPassword.getText().toString();
 
                                             // login information stored into database ( name, email, password, confirm password and phone sign in  )
-                                            UserHelperClass helperClass = new UserHelperClass(username, email, pass, cpass, uid);
+                                            UserHelperClass helperClass = new UserHelperClass(username, email, blood, pass, cpass, uid);
                                             reference.child(uid).setValue(helperClass);
                                             finish();
                                             startActivity(new Intent(RegisterActivity.this, LoginActivity.class));

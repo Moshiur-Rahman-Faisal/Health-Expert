@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthExpert">
         <activity
+            android:name=".BloodActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity
             android:name=".BMIResult"
             android:exported="true" />
         <activity

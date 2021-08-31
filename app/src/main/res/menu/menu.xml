@@ -12,6 +12,10 @@
             android:title="BMI Calculator"
             android:icon="@drawable/ic_bmi">
         </item>
+        <item android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_person">
+        </item>
         <item android:id="@+id/logout"
             android:title="Log Out"
             android:icon="@drawable/ic_logout">
