@@ -1,16 +1,15 @@
 package com.example.healthexpert;
 
 public class UserProfileInfo {
-    String username, email, phone, Img_url, blood;
+    String username, email, Img_url, blood;
 
     public  UserProfileInfo(){
 
     }
 
-    public UserProfileInfo(String username, String email, String phone, String img_url, String blood) {
+    public UserProfileInfo(String username, String email, String img_url, String blood) {
         this.username = username;
         this.email = email;
-        this.phone = phone;
         this.Img_url = img_url;
         this.blood = blood;
     }
@@ -29,14 +28,6 @@ public class UserProfileInfo {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
     }
 
     public String getImg_url() {

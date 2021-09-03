@@ -4,63 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bmiresult_bg"
-    tools:context=".BMIResult">
-
-    <ImageView
-        android:id="@+id/imageview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/contentlayout"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp"
-        android:padding="10dp"
-        android:src="@drawable/ok">
-
-    </ImageView>
+    tools:context=".ResultHeathMonitoring"
+    android:background="@drawable/heathresult_bg">
 
 
     <RelativeLayout
         android:id="@+id/contentlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/textshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contentlayout"
         android:layout_centerInParent="true"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="10dp"
+        android:background="@drawable/card_bg"
         android:padding="20dp">
 
         <TextView
-            android:id="@+id/bmidisplay"
-            android:layout_width="wrap_content"
+            android:id="@+id/healthconditions"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="22"
-            android:textColor="@color/red"
-            android:textSize="50sp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:text="About Your Condition"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold">
 
         </TextView>
 
         <TextView
-            android:id="@+id/genderdisplay"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/bmidisplay"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="15dp"
-            android:text="Gender"
-            android:textColor="@color/white"
-            android:textSize="17sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/bmicategorydispaly"
+            android:id="@+id/consultdoctor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/genderdisplay"
-            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/healthconditions"
             android:layout_marginTop="15dp"
-            android:text="Your BMI Category Is"
+            android:text="About Your Condition"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20sp"
@@ -73,15 +61,15 @@
 
 
     <android.widget.Button
-        android:id="@+id/gotomain"
+        android:id="@+id/recheck"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_below="@id/contentlayout"
+        android:layout_below="@id/textshow"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="50dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/button_bg"
-        android:text="RECALCULATE YOUR BMI"
+        android:text="Recheck Your Condition"
         android:textColor="@color/white"
         android:textSize="15sp"
         android:textStyle="bold">

@@ -23,7 +23,7 @@
            <ImageView
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               android:src="@drawable/logo"
+               android:src="@drawable/profileimage"
                android:id="@+id/image_profile"
                android:scaleType="centerCrop">
 
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/user_image"
             android:layout_centerHorizontal="true"
-            android:text="User Name"
+            android:text="Fahim Istiak"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -85,7 +85,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:fontFamily="sans-serif-light"
-                    android:text="user@mail.com"
+                    android:text="istiakfahim2@gmail.com"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 

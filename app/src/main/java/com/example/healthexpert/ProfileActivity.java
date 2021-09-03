@@ -93,8 +93,7 @@ public class ProfileActivity extends AppCompatActivity {
                 UserProfileInfo userProfileInfo = snapshot.getValue(UserProfileInfo.class);
                 mName.setText(userProfileInfo.getUsername());
                 mEmail.setText(userProfileInfo.getEmail());
-                mphone.setText(userProfileInfo.getPhone());
-                mBloodGroup.setText(UserProfileInfo.getBlood());
+                mBloodGroup.setText(userProfileInfo.getBlood());
                 Picasso.get().load(userProfileInfo.Img_url).into(mProfilePic);
             }
 
