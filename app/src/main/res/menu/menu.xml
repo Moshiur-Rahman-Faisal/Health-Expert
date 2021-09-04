@@ -25,6 +25,14 @@
             android:title="Health Condition"
             android:icon="@drawable/ic_healthmonitor">
         </item>
+        <item android:id="@+id/hospitallocation"
+            android:title="Find Hospital"
+            android:icon="@drawable/ic_location">
+        </item>
+        <item android:id="@+id/contactus"
+            android:title="Our Team"
+            android:icon="@drawable/ic_team">
+        </item>
         <item android:id="@+id/logout"
             android:title="Log Out"
             android:icon="@drawable/ic_logout">

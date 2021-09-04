@@ -147,6 +147,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 drawerLayout.closeDrawer(GravityCompat.START);
                 break;
 
+            case R.id.hospitallocation:
+                Toast.makeText(getApplicationContext(),"Opening Location", Toast.LENGTH_SHORT).show();
+                Intent location = new Intent(MainActivity.this, MapActivity.class);
+                startActivity(location);
+                drawerLayout.closeDrawer(GravityCompat.START);
+                break;
+
+            case R.id.contactus:
+                Toast.makeText(getApplicationContext(),"Loading Team", Toast.LENGTH_SHORT).show();
+                Intent contact = new Intent(MainActivity.this, ContactUsActivity.class);
+                startActivity(contact);
+                drawerLayout.closeDrawer(GravityCompat.START);
+                break;
+
             case R.id.logout:
                 Toast.makeText(getApplicationContext(), "Logging Out", Toast.LENGTH_LONG).show();
                 FirebaseAuth.getInstance().signOut();

@@ -25,16 +25,18 @@ public class ResultHeathMonitoring extends AppCompatActivity {
         intent = getIntent();
 
 
-        mhealthconditions.setText(intent.getStringExtra("fever"));
-        mhealthconditions.setText(intent.getStringExtra("dry"));
+        /*mhealthconditions.setText(intent.getStringExtra("fever"));*/
 
-        if(mhealthconditions == fever){
+        mhealthconditions.setText("Possibilities of Covid-19");
+        mconsultdoctor.setText("Please Consult With a Doctor");
+
+        /*if(mhealthconditions == fever){
 
             mconsultdoctor.setText("Please Consult With Doctor");
         }
         else{
             mconsultdoctor.setText("No Worries");
-        }
+        }*/
 
 
 
