@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_bg">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardviewofblood"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="70dp">
+
+            <ImageView
+                android:id="@+id/imageviewofblood"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/bloodName"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/cardviewofblood"
+            android:text="Health Expert"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/huhuhu"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/bloodName"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/cardviewofblood"
+            android:text="Blood Group: "
+            android:textColor="@color/white"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/bloodgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@id/bloodName"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/huhuhu"
+            android:text="A-"
+            android:textColor="@color/red"
+            android:textSize="16sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/hahaha"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/huhuhu"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/cardviewofblood"
+            android:text="Contact No: "
+            android:textColor="@color/white">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/bloodemail"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/huhuhu"
+            android:layout_toRightOf="@+id/hahaha"
+            android:text="12345678901"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -14,6 +14,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthExpert">
         <activity
+            android:name=".SecondBloodActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SpalshScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ContactUsActivity"
             android:exported="true" />
 
@@ -24,6 +36,9 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/map_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <activity
             android:name=".MapActivity"
@@ -33,9 +48,6 @@
             android:exported="true" />
         <activity
             android:name=".ActivityHealthMonitoring"
-            android:exported="true" />
-        <activity
-            android:name=".BloodActivity"
             android:exported="true" />
         <activity
             android:name=".ProfileActivity"
@@ -57,13 +69,7 @@
             android:exported="true" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>

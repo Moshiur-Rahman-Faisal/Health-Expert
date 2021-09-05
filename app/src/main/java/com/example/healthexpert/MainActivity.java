@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             case R.id.bloodgroupmenu:
                 Toast.makeText(getApplicationContext(),"Searching Blood", Toast.LENGTH_SHORT).show();
-                Intent blood = new Intent(MainActivity.this, BloodActivity.class);
+                Intent blood = new Intent(MainActivity.this, SecondBloodActivity.class);
                 startActivity(blood);
                 drawerLayout.closeDrawer(GravityCompat.START);
                 break;
