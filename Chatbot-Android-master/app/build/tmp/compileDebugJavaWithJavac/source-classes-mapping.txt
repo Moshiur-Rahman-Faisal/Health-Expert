@@ -1,0 +1,16 @@
+com/hariofspades/chatbot/MainActivity.java
+ com.hariofspades.chatbot.MainActivity
+ com.hariofspades.chatbot.MainActivity$1
+ com.hariofspades.chatbot.MainActivity$2
+ com.hariofspades.chatbot.MainActivity$3
+com/hariofspades/chatbot/SpeakActivity.java
+ com.hariofspades.chatbot.SpeakActivity
+ com.hariofspades.chatbot.SpeakActivity$1
+ com.hariofspades.chatbot.SpeakActivity$2
+com/hariofspades/chatbot/BuildConfig.java
+ com.hariofspades.chatbot.BuildConfig
+com/hariofspades/chatbot/Pojo/ChatMessage.java
+ com.hariofspades.chatbot.Pojo.ChatMessage
+com/hariofspades/chatbot/Adapter/ChatMessageAdapter.java
+ com.hariofspades.chatbot.Adapter.ChatMessageAdapter
+ com.hariofspades.chatbot.Adapter.ChatMessageAdapter$1
