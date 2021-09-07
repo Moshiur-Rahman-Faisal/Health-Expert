@@ -2,14 +2,15 @@ package com.example.healthexpert;
 
 public class UserHelperClass {
 
-    String username, email, pass, cpass, uid;
+    String username, email, blood, pass, cpass, uid;
 
     public UserHelperClass() {
     }
 
-    public UserHelperClass(String username, String email, String pass, String cpass, String uid) {
+    public UserHelperClass(String username, String email, String blood, String pass, String cpass, String uid) {
         this.username = username;
         this.email = email;
+        this.blood = blood;
         this.pass = pass;
         this.cpass = cpass;
         this.uid = uid;
@@ -29,6 +30,14 @@ public class UserHelperClass {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getBlood() {
+        return blood;
+    }
+
+    public void setBlood(String blood) {
+        this.blood = blood;
     }
 
     public String getPass() {

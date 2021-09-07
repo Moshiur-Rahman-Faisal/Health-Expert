@@ -15,7 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[58145fab]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\fahim\.android\avd\Pixel_3a_XL_API_27.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -52,10 +52,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
         <option value="Interface" />
-        <option value="Class" />
+        <option value="valueResourceFile" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,7 +70,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -78,10 +79,28 @@
       <recent name="C:\Health Expert\app\src\main\res\drawable" />
       <recent name="C:\Health Expert\app" />
     </key>
+    <key name="android.template.-1695355723">
+      <recent name="com.example.healthexpert" />
+    </key>
     <key name="android.template.-1403095396">
       <recent name="com.example.healthexpert" />
     </key>
+    <key name="android.template.1500924611">
+      <recent name="com.example.healthexpert" />
+    </key>
+    <key name="android.template.523397923">
+      <recent name="com.example.healthexpert" />
+    </key>
+    <key name="android.template.-988974097">
+      <recent name="com.example.healthexpert" />
+    </key>
     <key name="android.template.-70253303">
+      <recent name="com.example.healthexpert" />
+    </key>
+    <key name="android.template.995271210">
+      <recent name="com.example.healthexpert" />
+    </key>
+    <key name="android.template.-2078725814">
       <recent name="com.example.healthexpert" />
     </key>
     <key name="android.template.-710852814">

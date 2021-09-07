@@ -7,7 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="main"> #083863</color>
+
 
     <color name="green">#FF4CAF50</color>
     <color name="yellow">#FFB701</color>
@@ -17,7 +17,7 @@
     <color name="relative_bg">#2b2e4a</color>
     <color name="countycode_bg">#EAE9E9</color>
     <color name="middle_bg">#C5CAE9</color>
-
+    <color name="main"> #083863</color>
     <color name="red">#E80909</color>
     <color name="main2"> #FF1C79CC</color>
 

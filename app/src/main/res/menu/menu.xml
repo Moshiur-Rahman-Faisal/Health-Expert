@@ -12,6 +12,31 @@
             android:title="BMI Calculator"
             android:icon="@drawable/ic_bmi">
         </item>
+        <item android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_person">
+        </item>
+
+        <item android:id="@+id/bloodgroupmenu"
+            android:title="Search for Blood"
+            android:icon="@drawable/ic_blood">
+        </item>
+        <item android:id="@+id/healthmonitor"
+            android:title="Health Condition"
+            android:icon="@drawable/ic_healthmonitor">
+        </item>
+        <item android:id="@+id/hospitallocation"
+            android:title="Find Hospital"
+            android:icon="@drawable/ic_location">
+        </item>
+        <item android:id="@+id/appoinment"
+            android:title="Doctor's Appointment"
+            android:icon="@drawable/ic_appoinment">
+        </item>
+        <item android:id="@+id/contactus"
+            android:title="Our Team"
+            android:icon="@drawable/ic_team">
+        </item>
         <item android:id="@+id/logout"
             android:title="Log Out"
             android:icon="@drawable/ic_logout">

@@ -9,23 +9,40 @@
     tools:openDrawer="start"
     android:id="@+id/nav_view">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
 
         <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:id="@+id/toolbar"
             android:background="@color/main">
 
         </androidx.appcompat.widget.Toolbar>
 
-    </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar">
 
-    <com.google.android.material.navigation.NavigationView
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/mainpage_bg">
+
+            </ImageView>
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+   <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/navigation_view"
